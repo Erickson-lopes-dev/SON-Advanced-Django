@@ -119,3 +119,4 @@ FIXTURE_DIRS = [
     os.path.join(BASE_DIR, 'fixtures')
 ]
 # py manage.py loaddata "caminho\data.json"
+# py manage.py dumpdata --output ./dumpdata.json (salvar banco de dados)
