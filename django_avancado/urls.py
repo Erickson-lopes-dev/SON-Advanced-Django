@@ -16,6 +16,11 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from stock.views import *
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('stock_entries/', entries_list, name='entries_list'),
+    path('stock_entries/new/', entries_new, name='entries_new'),
+    path('stock_entries/create/', entries_create, name='entries_create')
 ]
