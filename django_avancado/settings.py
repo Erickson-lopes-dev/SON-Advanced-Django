@@ -120,3 +120,11 @@ FIXTURE_DIRS = [
 ]
 # py manage.py loaddata "caminho\data.json"
 # py manage.py dumpdata --output ./dumpdata.json (salvar banco de dados)
+
+
+EMAIL_HOST = 'smtp.mailtrap.io'
+EMAIL_HOST_USER = '4a2c57e2d57fd1'
+EMAIL_HOST_PASSWORD = 'f038b86cfaf564'
+EMAIL_PORT = '2525'
+
+MAIL_REPLY = 'admin@user.com'
